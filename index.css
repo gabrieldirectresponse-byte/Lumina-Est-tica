@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', serif;
+}
