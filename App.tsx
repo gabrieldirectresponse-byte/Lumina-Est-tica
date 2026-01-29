@@ -6,7 +6,7 @@ import Services from './components/Services';
 import Benefits from './components/Benefits';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
-import FloatingWhatsapp from './components/FloatingWhatsapp';
+import ChatWidget from './components/ChatWidget';
 
 const App: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const App: React.FC = () => {
       <Benefits />
       <FAQ />
       <Footer />
-      <FloatingWhatsapp />
+      <ChatWidget />
     </div>
   );
 };
